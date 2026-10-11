@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 40" width="444" height="120" role="img" aria-label="LUMEN RESIDENCES">
+  <title>LUMEN RESIDENCES</title>
+  <g fill="none" stroke="#141414" stroke-width="1.6" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M2 4H11M19 4H36V36H2V4"/>
+  </g>
+  <path d="M11 4.8H19L33 35.2H17Z" fill="#F2C879"/>
+  <g fill="none" stroke="#141414" stroke-width="1.6" stroke-linecap="square">
+    <path d="M52 6V26H62"/>
+    <path d="M70 6V19A5 5 0 0 0 80 19V6"/>
+    <path d="M89 26V6L96 18L103 6V26"/>
+    <path d="M122 6H112V26H122M112 16H120"/>
+    <path d="M131 26V6L143 26V6"/>
+  </g>
+  <g fill="none" stroke="#141414" stroke-width=".9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 37V31H55A1.5 1.5 0 0 1 55 34H52M54.4 34L56 37"/>
+    <path d="M65.1 31H61.1V37H65.1M61.1 34H64.1"/>
+    <path d="M74.2 31.6Q74.2 31 73.2 31H71.2Q70.2 31 70.2 32.5Q70.2 34 72.2 34Q74.2 34 74.2 35.5Q74.2 37 73.2 37H71.2Q70.2 37 70.2 36.4"/>
+    <path d="M81.3 31V37"/>
+    <path d="M88.4 31H89.9A2.5 3 0 0 1 89.9 37H88.4Z"/>
+    <path d="M101.5 31H97.5V37H101.5M97.5 34H100.5"/>
+    <path d="M106.6 37V31L110.6 37V31"/>
+    <path d="M119.7 31.8A3 3 0 1 0 119.7 36.2"/>
+    <path d="M128.8 31H124.8V37H128.8M124.8 34H127.8"/>
+    <path d="M137.9 31.6Q137.9 31 136.9 31H134.9Q133.9 31 133.9 32.5Q133.9 34 135.9 34Q137.9 34 137.9 35.5Q137.9 37 136.9 37H134.9Q133.9 37 133.9 36.4"/>
+  </g>
+</svg>

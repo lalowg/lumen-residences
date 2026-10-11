@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LUMEN RESIDENCES — Modern Living, Elevated</title>
+<meta name="description" content="Lantern Quay by LUMEN RESIDENCES: twelve storeys of homes drawn around daylight. Choose a residence, drag the hour and watch the sun move room by room through an interactive floor plan.">
+<meta name="theme-color" content="#D9D6D0">
+<link rel="canonical" href="https://lumen-residences-three.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LUMEN RESIDENCES">
+<meta property="og:title" content="LUMEN RESIDENCES — Modern Living, Elevated">
+<meta property="og:description" content="An interactive light study: drag the hour and watch the sun travel through each room of every residence at Lantern Quay.">
+<meta property="og:url" content="https://lumen-residences-three.vercel.app/">
+<meta property="og:image" content="https://lumen-residences-three.vercel.app/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="LUMEN RESIDENCES — Modern Living, Elevated">
+<meta name="twitter:description" content="Homes drawn around daylight. Explore the plan room by room and watch the light move.">
+<meta name="twitter:image" content="https://lumen-residences-three.vercel.app/og.png">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Hind:wght@300;400;500;600&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.lumenReady)document.documentElement.classList.remove('js');},3000);</script>
+<script type="module" src="main.js"></script>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+
+<svg class="defs" aria-hidden="true" focusable="false" width="0" height="0">
+  <defs>
+    <symbol id="mark" viewBox="0 0 148 40">
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square" stroke-linejoin="miter">
+        <path d="M2 4H11M19 4H36V36H2V4"/>
+        <path d="M2 4V36"/>
+      </g>
+      <path d="M11 4.8H19L33 35.2H17Z" fill="var(--mark-light, #F2C879)"/>
+      <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square">
+        <path d="M52 8V28H62"/>
+        <path d="M70 8V21A5 5 0 0 0 80 21V8"/>
+        <path d="M89 28V8L96 20L103 8V28"/>
+        <path d="M122 8H112V28H122M112 18H120"/>
+        <path d="M131 28V8L143 28V8"/>
+      </g>
+      <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="square">
+        <path d="M52 34H143" opacity=".35"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="LUMEN RESIDENCES, back to the top">
+    <svg class="brand__logo" viewBox="0 0 148 40" aria-hidden="true" focusable="false"><use href="#mark"/></svg>
+    <span class="brand__sub" aria-hidden="true">Residences</span>
+  </a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav"><span class="menu-btn__bars" aria-hidden="true"></span><span class="menu-btn__txt">Menu</span></button>
+  <nav id="site-nav" class="site-nav" aria-label="Main">
+    <ol>
+      <li><a href="#plan"><span class="site-nav__no">01</span>Light study</a></li>
+      <li><a href="#residences"><span class="site-nav__no">02</span>Residences</a></li>
+      <li><a href="#gallery"><span class="site-nav__no">03</span>Gallery</a></li>
+      <li><a href="#materials"><span class="site-nav__no">04</span>Materials</a></li>
+      <li><a href="#building"><span class="site-nav__no">05</span>The building</a></li>
+      <li><a href="#inquire" class="site-nav__cta"><span class="site-nav__no">06</span>Private viewing</a></li>
+    </ol>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <!-- 01 Light study -->
+  <section id="plan" class="study" aria-labelledby="study-title">
+    <div class="study__head">
+      <p class="eyebrow"><span>Lantern Quay</span><span>Released residences</span></p>
+      <h1 id="study-title" class="study__title" data-reveal>Modern living, <span class="study__title-em">elevated.</span></h1>
+      <div class="study__lede">
+        <p>Every home at Lantern Quay was drawn around one question: where does the sun fall, and when? Choose a residence, drag the hour, and walk the day through its rooms.</p>
+        <div id="type-picker" class="picker" role="group" aria-label="Choose a residence type">
+          <button type="button" data-type="atelier" data-listing="2.04" aria-pressed="false"><span class="picker__name">The Atelier</span><span class="picker__meta">1 bed · No. 2.04</span></button>
+          <button type="button" data-type="courtyard" data-listing="5.02" aria-pressed="false"><span class="picker__name">The Courtyard</span><span class="picker__meta">2 bed · No. 5.02</span></button>
+          <button type="button" data-type="meridian" data-listing="11.01" aria-pressed="true"><span class="picker__name">The Meridian</span><span class="picker__meta">2 bed + terrace · No. 11.01</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="study__grid">
+      <figure class="sheet">
+        <div class="sheet__head">
+          <p class="sheet__kicker">Plan · light study</p>
+          <p id="res-label" class="sheet__title">No. 11.01 · The Meridian</p>
+          <p id="res-sub" class="sheet__sub">Level 11</p>
+        </div>
+        <div class="sheet__canvas">
+          <div id="plan-holder" class="plan-holder"></div>
+          <div id="plan-labels" class="plan-labels"></div>
+        </div>
+        <figcaption class="sheet__foot">
+          <svg class="dial" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+            <circle cx="60" cy="60" r="52" class="dial__ring"/>
+            <circle cx="60" cy="60" r="30" class="dial__ring dial__ring--in"/>
+            <g id="dial-beam"><path d="M60 60V14" class="dial__beam"/></g>
+            <rect x="46" y="51" width="28" height="18" class="dial__plan"/>
+            <path d="M46 51H74" class="dial__facade"/>
+            <g id="dial-n"><path d="M60 3l-5 10h10z" class="dial__n"/></g>
+            <circle id="dial-sun" cx="60" cy="20" r="6" class="dial__sun"/>
+          </svg>
+          <div class="sheet__legend">
+            <p><span class="key key--sun" aria-hidden="true"></span>Direct sun at this hour</p>
+            <p><span class="key key--glass" aria-hidden="true"></span>Glazing · <span class="key key--grid" aria-hidden="true"></span>Grid 0.5 m</p>
+            <p class="sheet__note">Illustrative light study for a clear equinox day. Not a daylight analysis.</p>
+          </div>
+        </figcaption>
+      </figure>
+
+      <div class="viewer">
+        <div id="rv-stage" class="rv-stage" tabindex="0" role="group" aria-roledescription="3D room model" aria-label="Model of the selected room. Drag, or use the left and right arrow keys, to turn it. Page Up and Page Down change room.">
+          <div class="rv-sweep" aria-hidden="true"></div>
+          <p class="rv-hint" aria-hidden="true">Drag to turn the room</p>
+        </div>
+        <div class="viewer__controls">
+          <div class="ctrl-pair" role="group" aria-label="Change room">
+            <button id="rv-prev" type="button" class="ctrl"><span aria-hidden="true">←</span><span class="visually-hidden">Previous room</span></button>
+            <button id="rv-next" type="button" class="ctrl"><span aria-hidden="true">→</span><span class="visually-hidden">Next room</span></button>
+          </div>
+          <div class="ctrl-pair" role="group" aria-label="Turn the model">
+            <button id="rv-left" type="button" class="ctrl ctrl--turn"><span aria-hidden="true">↺</span><span class="visually-hidden">Turn left</span></button>
+            <button id="rv-right" type="button" class="ctrl ctrl--turn"><span aria-hidden="true">↻</span><span class="visually-hidden">Turn right</span></button>
+          </div>
+        </div>
+        <div class="room-info" aria-live="polite">
+          <p id="ri-index" class="room-info__idx">Room 1 of 7</p>
+          <h2 id="ri-name" class="room-info__name">Living room</h2>
+          <dl class="room-info__facts">
+            <div><dt>Area</dt><dd id="ri-area">42.0 m²</dd></div>
+            <div><dt>Ceiling</dt><dd id="ri-ceil">3.20 m</dd></div>
+            <div><dt>Glazing faces</dt><dd id="ri-aspect">South, East</dd></div>
+            <div><dt>Floor in sun now</dt><dd id="ri-sun">0%</dd></div>
+            <div><dt>Direct sun</dt><dd id="ri-window">—</dd></div>
+          </dl>
+          <figure class="room-info__curve">
+            <svg id="ri-curve" viewBox="0 0 300 64" preserveAspectRatio="none" aria-hidden="true" focusable="false"></svg>
+            <figcaption><span>06:00</span><span>Share of floor in direct sun, through the day</span><span>20:00</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="clock">
+      <button id="play" class="play" type="button" aria-pressed="false"><span class="play__icon" aria-hidden="true"></span><span class="play__txt">Play the day</span></button>
+      <div class="clock__track">
+        <label for="time" class="visually-hidden">Time of day</label>
+        <input id="time" type="range" min="6" max="20" step="0.25" value="9.5">
+        <div class="clock__ticks" aria-hidden="true"><span>06</span><span>08</span><span>10</span><span>12</span><span>14</span><span>16</span><span>18</span><span>20</span></div>
+      </div>
+      <p class="clock__read"><output id="time-out" for="time">09:30</output><span id="sun-out">Sun in the south-east</span></p>
+    </div>
+    <p id="study-status" class="visually-hidden" aria-live="polite"></p>
+  </section>
+
+  <!-- 02 Residences -->
+  <section id="residences" class="res" aria-labelledby="res-title">
+    <header class="sec-head">
+      <p class="sec-no">02</p>
+      <h2 id="res-title" data-reveal>Released residences</h2>
+      <p class="sec-lede">Eight homes are released this season. Each is listed with the hours its living room receives direct sun, calculated from the same light study as the plan above.</p>
+    </header>
+    <form id="res-filters" class="filters" aria-label="Filter residences">
+      <fieldset class="chips">
+        <legend>Bedrooms</legend>
+        <label><input type="radio" name="beds" value="any" checked><span>Any</span></label>
+        <label><input type="radio" name="beds" value="1"><span>One</span></label>
+        <label><input type="radio" name="beds" value="2"><span>Two</span></label>
+      </fieldset>
+      <fieldset class="chips">
+        <legend>Facade faces</legend>
+        <label><input type="radio" name="aspect" value="any" checked><span>Any</span></label>
+        <label><input type="radio" name="aspect" value="east"><span>East</span></label>
+        <label><input type="radio" name="aspect" value="south"><span>South</span></label>
+        <label><input type="radio" name="aspect" value="west"><span>West</span></label>
+      </fieldset>
+      <fieldset class="chips">
+        <legend>Level</legend>
+        <label><input type="radio" name="level" value="any" checked><span>Any</span></label>
+        <label><input type="radio" name="level" value="lower"><span>2–5</span></label>
+        <label><input type="radio" name="level" value="upper"><span>6–9</span></label>
+        <label><input type="radio" name="level" value="pent"><span>10–12</span></label>
+      </fieldset>
+      <div class="filters__end">
+        <label class="toggle"><input type="checkbox" name="reserved" checked><span class="toggle__ui" aria-hidden="true"></span><span>Show reserved</span></label>
+        <label class="sort"><span>Sort by</span>
+          <select name="sort">
+            <option value="level">Level</option>
+            <option value="price">Guide price</option>
+            <option value="area">Largest first</option>
+          </select>
+        </label>
+      </div>
+    </form>
+    <p id="res-count" class="res__count" aria-live="polite"></p>
+    <ol id="res-list" class="lst-list"></ol>
+    <p class="fine">Listings are fictional. Guide prices are illustrative, for a portfolio concept only. Sun hours come from the illustrative equinox light study.</p>
+  </section>
+
+  <!-- 03 Gallery -->
+  <section id="gallery" class="gal" aria-labelledby="gal-title">
+    <header class="sec-head sec-head--split">
+      <div>
+        <p class="sec-no">03</p>
+        <h2 id="gal-title" data-reveal>A day in five rooms</h2>
+      </div>
+      <p class="sec-lede">From the first light on the east loggia to the last on a bedroom wall. Move across a plate to turn the sun; every patch, beam and shadow is drawn from that one direction.</p>
+    </header>
+    <div class="gal__bar">
+      <div class="ctrl-pair" role="group" aria-label="Scroll the gallery">
+        <button id="g-prev" type="button" class="ctrl"><span aria-hidden="true">←</span><span class="visually-hidden">Previous plate</span></button>
+        <button id="g-next" type="button" class="ctrl"><span aria-hidden="true">→</span><span class="visually-hidden">Next plate</span></button>
+      </div>
+      <div id="g-progress" class="gal__progress" aria-hidden="true"><span></span></div>
+      <label class="gal__sun"><span>Turn the sun</span><input id="g-sun" type="range" min="-15" max="15" step="1" value="0"><output id="g-sun-out" for="g-sun">0°</output></label>
+    </div>
+    <ol id="plates" class="plates" tabindex="0" aria-label="Interior plates. Scroll sideways to see all five."></ol>
+  </section>
+
+  <!-- 04 Materials -->
+  <section id="materials" class="mat" aria-labelledby="mat-title">
+    <div class="mat__plate">
+      <div id="mat-swatch" class="swatch" data-mat="concrete" role="img" aria-label="Material sample">
+        <span class="swatch__light" aria-hidden="true"></span>
+      </div>
+    </div>
+    <div class="mat__text">
+      <p class="sec-no">04</p>
+      <h2 id="mat-title" data-reveal>Six materials, chosen for how they take the light</h2>
+      <p class="sec-lede">The palette is short on purpose. Each surface was tested at the window, at seven in the morning and again at six in the evening, before it was allowed into a room.</p>
+      <ul id="mat-list" class="mat__list">
+        <li><button type="button" data-mat="concrete" aria-pressed="true"><span class="mat__chip mat__chip--concrete" aria-hidden="true"></span>Board-marked concrete</button></li>
+        <li><button type="button" data-mat="oak" aria-pressed="false"><span class="mat__chip mat__chip--oak" aria-hidden="true"></span>Smoked oak</button></li>
+        <li><button type="button" data-mat="travertine" aria-pressed="false"><span class="mat__chip mat__chip--travertine" aria-hidden="true"></span>Honed travertine</button></li>
+        <li><button type="button" data-mat="glass" aria-pressed="false"><span class="mat__chip mat__chip--glass" aria-hidden="true"></span>Low-iron glass</button></li>
+        <li><button type="button" data-mat="plaster" aria-pressed="false"><span class="mat__chip mat__chip--plaster" aria-hidden="true"></span>Lime plaster</button></li>
+        <li><button type="button" data-mat="brass" aria-pressed="false"><span class="mat__chip mat__chip--brass" aria-hidden="true"></span>Brushed brass</button></li>
+      </ul>
+      <div class="mat__detail" aria-live="polite">
+        <h3 id="mat-name">Board-marked concrete</h3>
+        <p class="mat__where"><span>Used in</span> <span id="mat-where">Lobby walls, stair core, loggia soffits</span></p>
+        <p id="mat-note">Poured against rough-sawn larch boards, so every wall carries the grain of the timber that shaped it. Low sun picks out each board line.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 Building -->
+  <section id="building" class="bld" data-band="ground" data-season="winter" aria-labelledby="bld-title">
+    <div class="bld__sticky">
+      <svg id="bld-svg" class="bld__svg" viewBox="0 0 640 780" role="img" aria-label="Section drawing of Lantern Quay from north to south: a tall ground floor, nine residential levels with south balconies, three set-back penthouse levels and a roof garden. Sun lines show the low winter sun and the high summer sun."></svg>
+      <div class="bld__season" role="group" aria-label="Sun angle shown">
+        <button type="button" data-sun-season="winter" aria-pressed="true">Winter sun</button>
+        <button type="button" data-sun-season="summer" aria-pressed="false">Summer sun</button>
+      </div>
+      <p class="bld__note">Section, not to scale. Sun angles are illustrative.</p>
+    </div>
+    <div class="bld__steps">
+      <header class="sec-head">
+        <p class="sec-no">05</p>
+        <h2 id="bld-title" data-reveal>The building, in section</h2>
+      </header>
+      <article class="bstep" data-band="ground">
+        <p class="bstep__lv">Ground and level 1</p>
+        <h3>A lobby that opens to the courtyard</h3>
+        <p>A five-metre ground floor runs straight through from the quay to a planted courtyard, so you can see daylight at the far end the moment you step inside. Post, bicycles and a residents' library sit along the north wall.</p>
+      </article>
+      <article class="bstep" data-band="lower">
+        <p class="bstep__lv">Levels 2–5</p>
+        <h3>The Atelier and the first Courtyards</h3>
+        <p>Compact homes with three-metre ceilings and full-height glazing. In winter the low sun reaches the back wall of the living room; deep south balconies keep the high summer sun on the terrace instead of the floor.</p>
+      </article>
+      <article class="bstep" data-band="upper">
+        <p class="bstep__lv">Levels 6–9</p>
+        <h3>Courtyards above the treeline</h3>
+        <p>Above the plane trees on the quay the views open to the water. Each Courtyard residence is dual-aspect, with a study that catches the last of the afternoon.</p>
+      </article>
+      <article class="bstep" data-band="pent">
+        <p class="bstep__lv">Levels 10–12</p>
+        <h3>The Meridian, set back</h3>
+        <p>The top three levels step back from both facades. The setback becomes a terrace on the south side and lets the floors below keep their sky. Ceilings rise to 3.2 metres.</p>
+      </article>
+      <article class="bstep" data-band="roof">
+        <p class="bstep__lv">Roof</p>
+        <h3>A garden for every resident</h3>
+        <p>Multi-stem birch, a long table and a glasshouse for winter evenings. It is the one place in the building where the sun is never in someone else's room.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 06 Inquire -->
+  <section id="inquire" class="inq" aria-labelledby="inq-title">
+    <div class="inq__intro">
+      <p class="sec-no">06</p>
+      <h2 id="inq-title" data-reveal>Visit at the brightest hour</h2>
+      <p class="sec-lede">We hold each private viewing at the time of day its living room is at its best. Tell us which residence you are curious about and we will suggest the hour.</p>
+      <address class="inq__addr">
+        <span>Lantern Quay Sales Gallery</span>
+        <span>Ground floor, Lantern Quay</span>
+        <span>Viewings by appointment, seven days</span>
+      </address>
+    </div>
+    <div class="inq__panel">
+      <form id="inq-form" class="form" novalidate>
+        <div class="field">
+          <label for="f-name">Full name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" aria-describedby="err-name" required>
+          <p id="err-name" class="field__err"></p>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" aria-describedby="err-email" required>
+            <p id="err-email" class="field__err"></p>
+          </div>
+          <div class="field">
+            <label for="f-phone">Phone <span class="field__opt">(optional)</span></label>
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" aria-describedby="err-phone">
+            <p id="err-phone" class="field__err"></p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-res">Residence</label>
+          <select id="f-res" name="residence" aria-describedby="f-res-hint err-residence" required></select>
+          <p id="f-res-hint" class="field__hint">We schedule each viewing for the hour its living room is brightest.</p>
+          <p id="err-residence" class="field__err"></p>
+        </div>
+        <fieldset class="field chips chips--light">
+          <legend>Preferred light</legend>
+          <label><input type="radio" name="light" value="morning" checked><span>Morning</span></label>
+          <label><input type="radio" name="light" value="midday"><span>Midday</span></label>
+          <label><input type="radio" name="light" value="afternoon"><span>Late afternoon</span></label>
+        </fieldset>
+        <div class="field">
+          <label for="f-msg">Anything we should know <span class="field__opt">(optional)</span></label>
+          <textarea id="f-msg" name="message" rows="3"></textarea>
+        </div>
+        <div class="field field--check">
+          <label class="check"><input type="checkbox" name="consent" aria-describedby="err-consent"><span class="check__ui" aria-hidden="true"></span><span>I understand this is a portfolio demo: nothing will be sent and no viewing will be booked.</span></label>
+          <p id="err-consent" class="field__err"></p>
+        </div>
+        <button type="submit" class="btn btn--solid">Request a viewing</button>
+        <p id="inq-status" class="form__status" aria-live="polite"></p>
+      </form>
+      <div id="inq-done" class="done" tabindex="-1" hidden>
+        <p class="done__kicker">Request noted</p>
+        <h3>Thank you, <span id="inq-done-name"></span>.</h3>
+        <p>This is a portfolio demo, so nothing has been sent and no viewing has been booked. In a live site, the sales gallery would reply with a time when the light is at its best.</p>
+        <button id="inq-again" type="button" class="btn btn--line">Start a new request</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__top">
+    <a class="footer__brand" href="#top" aria-label="LUMEN RESIDENCES, back to the top">
+      <svg class="footer__logo" viewBox="0 0 148 40" aria-hidden="true" focusable="false"><use href="#mark"/></svg>
+    </a>
+    <p class="footer__line">Modern living, elevated.</p>
+  </div>
+  <div class="footer__grid">
+    <nav class="footer__nav" aria-label="Footer">
+      <ul>
+        <li><a href="#plan">Light study</a></li>
+        <li><a href="#residences">Residences</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#building">The building</a></li>
+        <li><a href="#inquire">Private viewing</a></li>
+      </ul>
+    </nav>
+    <div class="credit">
+      <p class="credit__by">Designed &amp; built by <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" rel="noopener" aria-label="Saad Bashir on LinkedIn (opens in a new tab)">Saad Bashir</a></p>
+      <p class="credit__note">Fictional concept brand — portfolio project.</p>
+      <a class="credit__more" href="https://saadbashirportfolio.vercel.app/websites.html">More work <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <p class="footer__fine">LUMEN RESIDENCES and Lantern Quay are fictional. Listings, prices and light studies are illustrative. © <span id="year">2026</span></p>
+</footer>
+</body>
+</html>
